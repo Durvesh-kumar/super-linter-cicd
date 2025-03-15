@@ -48,8 +48,8 @@ jobs:
             - name: "Install depentencies"
               run: python -m pip install --upgrade pip
 
-            # - name: "Cteate requirements.txt file"
-            #   run: touch requirements.txt
+            - name: "Cteate requirements.txt file"
+              run: touch requirements.txt
 
             - name: "Install depentencies"
               run: pip install -r requirements.txt
