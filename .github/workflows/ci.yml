@@ -53,7 +53,7 @@ jobs:
 
             - name: "Install depentencies"
               run: pip install -r requirements.txt
+                   pip intstall pytest
 
             - name: "Run test"
               run: pytest
-
